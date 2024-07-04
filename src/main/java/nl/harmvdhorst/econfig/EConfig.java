@@ -33,6 +33,10 @@ public class EConfig {
         return Float.parseFloat((String) configMap.get(key));
     }
 
+    public boolean getBoolean(String key){
+        return Boolean.parseBoolean((String) configMap.get(key));
+    }
+
     private void load(File file){
         //long time = System.currentTimeMillis();
 
