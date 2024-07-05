@@ -20,7 +20,7 @@ Currently the project is hosted on my own repo, but you can also build it yourse
 
 <repository>
   <id>harmvdhorst-repo</id>
-  <url>https://repo.harmvdhorst.nl/<repository></url>
+  <url>https://repo.harmvdhorst.nl/releases</url>
 </repository>
 
 <dependency>
