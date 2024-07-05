@@ -14,6 +14,22 @@ This makes the library also very lightweight
 
 By using this map the lib currently only supports reading (writing will be added in the future)
 
+### Install
+Currently the project is hosted on my own repo, but you can also build it yourself
+```xml
+
+<repository>
+  <id>harmvdhorst-repo</id>
+  <url>https://repo.harmvdhorst.nl/<repository></url>
+</repository>
+
+<dependency>
+    <groupId>nl.harmvdhorst</groupId>
+    <artifactId>EConfig</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ### The syntax
 The syntax is inspired by YAML and TOML
 
