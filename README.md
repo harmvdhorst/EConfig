@@ -36,6 +36,7 @@ The syntax is inspired by YAML and TOML
 ```
 
 // this is a comment
+// strings with : have to be put between ""
 
 // 'test' is the key, 'testvalue123' is the value
 test: testvalue123

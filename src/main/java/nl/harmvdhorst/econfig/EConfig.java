@@ -96,6 +96,10 @@ public class EConfig {
             String value = lineSplit[1];
             String modifiedValue = (value.startsWith(" ") ? value.replaceFirst(" ", "") : value);
 
+            if(line.contains("\"")){
+                modifiedValue = line.split("\"")[1].replaceAll("\"", "");
+            }
+
             if(category != null){
                 builder.put(category + "." + key, modifiedValue);
             } else {
