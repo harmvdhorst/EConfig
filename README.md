@@ -26,7 +26,7 @@ Currently the project is hosted on my own repo, but you can also build it yourse
 <dependency>
     <groupId>nl.harmvdhorst</groupId>
     <artifactId>EConfig</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
@@ -65,6 +65,17 @@ Currently the lib only supports
 ``String, Integer, Double, Float, Boolean``
 But supported for arrays + maps will be added in the future
 
+
+## DotEnv
+This library also has a loader/parser for the .env format
+
+```java
+
+DotEnv config = new DotEnv(new File(".env"));
+
+String test = config.get("TEST");
+
+```
 
 ## TODO
 
